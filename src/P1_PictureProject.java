@@ -21,7 +21,7 @@ public class P1_PictureProject extends World{
 
 
 
-
+// This is the loop that makes the triangle at a random point (this is also a test github change)
         for(int x=plane.random(250,750); x>plane.random(1,250); x=x- plane.random(1,5)) {
             for(y=797;y>0;y--){
                 plane.teleport(x,y);
